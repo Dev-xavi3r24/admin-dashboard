@@ -34,7 +34,7 @@
     <div class="header">
         <div class="search">
         <svg class="svg-left" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>magnify</title><path d="M9.5,3A6.5,6.5 0 0,1 16,9.5C16,11.11 15.41,12.59 14.44,13.73L14.71,14H15.5L20.5,19L19,20.5L14,15.5V14.71L13.73,14.44C12.59,15.41 11.11,16 9.5,16A6.5,6.5 0 0,1 3,9.5A6.5,6.5 0 0,1 9.5,3M9.5,5C7,5 5,7 5,9.5C5,12 7,14 9.5,14C12,14 14,12 14,9.5C14,7 12,5 9.5,5Z" /></svg> 
-           <input type="text" placeholder="Search...">
+           <input class="search-bar" type="text">
         </div>
         <div class="noti">
         <svg class="svg-left" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>bell-ring</title><path d="M21,19V20H3V19L5,17V11C5,7.9 7.03,5.17 10,4.29C10,4.19 10,4.1 10,4A2,2 0 0,1 12,2A2,2 0 0,1 14,4C14,4.1 14,4.19 14,4.29C16.97,5.17 19,7.9 19,11V17L21,19M14,21A2,2 0 0,1 12,23A2,2 0 0,1 10,21M19.75,3.19L18.33,4.61C20.04,6.3 21,8.6 21,11H23C23,8.07 21.84,5.25 19.75,3.19M1,11H3C3,8.6 3.96,6.3 5.67,4.61L4.25,3.19C2.16,5.25 1,8.07 1,11Z" /></svg>
@@ -47,10 +47,12 @@
 
     <div class="main-content">
       <div class="up-content">
-        <div class="left"><svg class="svg-left" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>account</title><path d="M12,4A4,4 0 0,1 16,8A4,4 0 0,1 12,12A4,4 0 0,1 8,8A4,4 0 0,1 12,4M12,14C16.42,14 20,15.79 20,18V20H4V18C4,15.79 7.58,14 12,14Z" /></svg>
-
-        <p>Hi there, </p>
-        <h2>Javier Bustamante(@javidev)</h2>
+        <div class="left">
+        <div class="image4"></div>
+        <div class="info-left">
+          <p>Hi there, </p>
+          <h2>Javier Bustamante(@javidev)</h2>
+        </div>
         </div>
         <div class="right">
           <button>New</button>
@@ -59,14 +61,87 @@
         </div>
       </div>
       <div class="projects">
-        <div class="card"></div>
-        <div class="card"></div>
-        <div class="card"></div>
-        <div class="card"></div>
-        <div class="card"></div>
-        <div class="card"></div>
+        <h3 class="heading-project">Projects</h3>
+        <div class="card">
+          <h3>Super cool project</h3>
+          <p class="grey-text">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966,
+          </p>
+        </div>
+        <div class="card">
+          <h3> Less cool project</h3>
+          <p class="grey-text">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966,
+          </p>
+        </div>
+        <div class="card">
+          <h3>Impossible app</h3>
+          <p class="grey-text">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966,
+          </p>
+        </div>
+        <div class="card">
+          <h3>Easy Peasy App</h3>
+          <p class="grey-text">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966,
+          </p>
+        </div>
+        <div class="card">
+          <h3>Ad Bloquer</h3>
+          <p class="grey-text">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966,
+          </p>
+        </div>
+        <div class="card">
+          <h3>YT video downloader</h3>
+          <p class="grey-text">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966,
+          </p>
+        </div>
       </div>
-      <div class="announcements-trending"></div>
+      <div class="announcements-trending">
+        <h3 class="heading-announcements">Announcements</h3>
+        <div class="announcements">
+          
+          <div class="announce announce-line">
+            <h4>Site Maintenance</h4>
+            <p class="grey-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+          </div>
+          <div class="announce announce-line">
+            <h4>Community Share Day</h4>
+            <p class="grey-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+          </div>
+          <div class="announce">
+            <h4>Updated Privacy policy</h4>
+            <p class="grey-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+          </div>
+        </div>
+        <h3 class="header-trending">Trending</h3>
+        <div class="trending">
+          
+          <div class="trend">
+            <div class="image1"></div>
+            <div class="info">
+              <p class="username">@busja</p>
+              <p class="username-info grey-text">Better planer Maker</p>
+            </div>
+          </div>
+          <div class="trend">
+            <div class="image2"></div>
+            <div class="info">
+              <p class="username">@javi</p>
+              <p class="username-info grey-text">World Peace Builder</p>
+            </div>
+          </div>
+          <div class="trend">
+            <div class="image3"></div>
+            <div class="info">
+              <p class="username">@gutijabus</p>
+              <p class="username-info grey-text">Life Changing App</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
    </div> 
